@@ -20,12 +20,12 @@ public class CalculatorTest {
 	@Test
 	public void testAdd() {
 		Calculator calc = new Calculator();
-		assertEquals(calc.add(1, 1), 1);
+		assertEquals(calc.add(1, 1), 2);
 	}
 	@Test
 	public void testSub() {
 		Calculator calc = new Calculator();
-		assertEquals(calc.sub(1, 1), 0);
+		assertEquals(calc.sub(1, 1), 2);
 	}
 	@Test
 	public void testMul() {
